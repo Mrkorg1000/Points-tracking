@@ -46,6 +46,8 @@
 
 Для поднятия проекта в Docker:
 
+Замените ".env.example" на ".env"
+
 Запускаем команду  -  `docker compose build`
 
 Запускаем проект  -  `docker compose up -d`
