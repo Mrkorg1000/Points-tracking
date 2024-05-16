@@ -1,0 +1,3 @@
+ALTER USER postgres WITH ENCRYPTED PASSWORD 'postgres';
+CREATE DATABASE points_db;
+GRANT ALL PRIVILIGES ON DATABASE points_db TO postgres;
